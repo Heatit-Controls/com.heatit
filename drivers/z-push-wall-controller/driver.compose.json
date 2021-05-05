@@ -1,0 +1,62 @@
+{
+  "id": "z-push-wall-controller",
+  "name": {
+    "en": "Z-Push Wall Controller"
+  },
+  "class": "button",
+  "capabilities": [
+    "measure_battery",
+    "alarm_battery"
+  ],
+  "icon": "{{driverAssetsPath}}/icon.svg",
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  },
+  "energy": {
+    "batteries": [ "CR2450" ]
+  },
+  "zwave": {
+    "manufacturerId": 411,
+    "productTypeId": 4,
+    "productId": 9219,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Z-Push Wall Controller Learn mode: Press any UP button 6 times in a rapid sequence on the device."
+      }
+    },
+    "unlearnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Z-Push Wall Controller Learn mode: Press any UP button 6 times in a rapid sequence on the device."
+      }
+    },
+    "associationGroups": [
+      1
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "Z-Wave Lifeline group. The Homey controller should be here"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Group 2. Used for the first button with double rocker and triple rocker configuration."
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "Group 3. Used for the first button with single rocker and the second button for triple rocker configuration."
+        }
+      },
+      "4": {
+        "hint": {
+          "en": "Group 4. Used for the last button with double rocker and triple rocker configuration."
+        }
+      }
+    },
+    "wakeUpInterval": 3600
+  }
+}

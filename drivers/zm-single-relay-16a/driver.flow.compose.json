@@ -1,0 +1,62 @@
+{
+  "triggers": [
+    {
+      "id": "zm-relay16-scene",
+      "title": {
+        "en": "Scene is activated"
+      },
+      "args": [
+        {
+          "name": "button",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "S1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "S2"
+              }
+            }
+          ]
+        },
+        {
+          "name": "scene",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "Key Pressed 1 time",
+              "label": {
+                "en": "Pressed 1x"
+              }
+            },
+            {
+              "id": "Key Pressed 2 times",
+              "label": {
+                "en": "Pressed 2x"
+              }
+            },
+            {
+              "id": "Key Held Down",
+              "label": {
+                "en": "Long press"
+              }
+            },
+            {
+              "id": "Key Released",
+              "label": {
+                "en": "Long press released"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conditions": [],
+  "actions": []
+}

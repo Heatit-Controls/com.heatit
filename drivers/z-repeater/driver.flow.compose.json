@@ -1,0 +1,28 @@
+{
+  "triggers": [
+    {
+      "id": "alarm_generic_false",
+      "title": {
+        "en": "AC mains power reconnected"
+      },
+      "args": []
+    },
+    {
+      "id": "alarm_generic_true",
+      "title": {
+        "en": "AC mains power disconnected"
+      },
+      "args": []
+    }
+  ],
+  "conditions": [
+    {
+      "id": "alarm_generic",
+      "title": {
+        "en": "AC mains power !{{disconnected|reconnected}}"
+      },
+      "args": []
+    }
+  ],
+  "actions": []
+}
