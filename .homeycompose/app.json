@@ -1,6 +1,6 @@
 {
   "id": "com.heatit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
@@ -21,5 +21,7 @@
   "author": {
     "name": "Heatit Controls",
     "email": "post@heatit.com"
-  }
+  },
+  "source": "https://github.com/Heatit-Controls/com.heatit",
+  "homepage": "https://heatit.com/"
 }
